@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Image from "next/image";
 
 interface FormValues {
   name: string;
@@ -39,14 +40,20 @@ const Hero = () => {
   };
 
   return (
-    <div
-      className="hero min-h-[calc(60vh-70px)]"
-      style={{
-        backgroundImage: "url('/webp/hero.webp')",
-      }}
-    >
-      <div className="hero-content text-neutral-content text-center p-0">
-        <div className="w-[90%] lg:max-w-xl bg-base-100 p-8">
+    <div className="relative min-h-[calc(60vh-70px)] w-full">
+      <div className="relative w-full h-[calc(60vh-70px)]">
+      <Image
+        src={"/webp/hero.webp"}
+        alt="Hero Background"
+        fill
+        className="object-cover"
+        priority
+      />
+      </div>
+      
+      <div className="absolute inset-0 min-w-full flex justify-center items-center hero-content   text-center p-0  
+      h-[calc(60vh-70px)]">
+        <div className="w-[90%] max-w-xl bg-base-100 p-8 mx-auto">
           <h1 className="mb-5 text-4xl uppercase text-primary">
             Request a free estimate
           </h1>

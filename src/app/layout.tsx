@@ -41,7 +41,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="twitter:description" content="Landscaping services for your outdoor space" />
         <meta name="twitter:image" content="/path/to/image.jpg" />
       </Head>
-      <body>
+      <body className="scrollbar-thin">
         <div className="drawer">
           <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content flex flex-col">
