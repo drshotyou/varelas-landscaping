@@ -1,6 +1,5 @@
 
 import Image from "next/image";
-import e from '../../.next/static/chunks/main-app';
 
 const Flooring = () => {
     return (
