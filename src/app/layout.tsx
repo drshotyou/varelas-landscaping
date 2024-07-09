@@ -3,6 +3,7 @@ import { Quattrocento } from 'next/font/google';
 import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head';
+import { Analytics } from "@vercel/analytics/react"
 
 const quattrocentoFont = Quattrocento({
   subsets: ['latin'],
@@ -115,6 +116,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </ul>
           </div>
         </div>
+        <Analytics />
       </body>
     </html>
   );
