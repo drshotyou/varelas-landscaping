@@ -46,7 +46,7 @@ export async function POST(req: Request) {
     // Setup email data
     const mailOptions = {
       from: name, // sender address
-      to: "varelaslandscapingnodemailer@gmail.com", // client's email address
+      to: "rudy@varelaslandscapingllc.com,rudy@varelaslandscapingllc.land,varelaslandscapingnodemailer@gmail.com", // client's email address
       subject: "Nuevo contacto", // Subject line
       html: htmlContent,
     };

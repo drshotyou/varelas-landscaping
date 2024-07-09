@@ -23,7 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Landscaping services for your outdoor space" />
-        <meta name="keywords" content="landscaping, garden, outdoor space, lawn care" />
+        <meta name="keywords" content="landscaping, garden, outdoor space, lawn care, hard wood flooring, georgia landscaping, landscaping services, landscaping company, landscaping contractor, landscaping agency, landscaping firm, landscaping specialists, landscaping consultants, landscaping designers, landscaping experts, landscaping professionals, landscaping providers, landscaping solutions, hardwood Georgia, flooring Georgia, hardwood flooring Georgia, Georgia landscaping services, Georgia landscaping company, Georgia landscaping contractor, Georgia landscaping agency, Georgia landscaping firm, Georgia landscaping specialists, Georgia landscaping consultants, Georgia landscaping designers, Georgia landscaping experts, Georgia landscaping professionals, Georgia landscaping providers, Georgia landscaping solutions" />
         <meta name="author" content="Varelas Landscaping" />
         <link rel="icon" href="/favicon.ico" />
         <title>Varelas Landscaping</title>
@@ -72,9 +72,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     </Link>
                   </li>
                   <li>
-                    <Link href="">
+                    <Link href="https://wa.me/6783828760">
                       <div className="flex flex-row justify-center items-center w-full">
-                        <Image src="/logo/google-logo-white.svg" width={48} height={48} alt="Google logo" />
+                        <Image src="/logo/logo-whatsapp.svg" width={48} height={48} alt="WhatsApp logo" />
                       </div>
                     </Link>
                   </li>
@@ -107,8 +107,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <li>
                 <Link href="">
                   <div className="flex flex-row justify-center items-center w-full">
-                    <Image src="/logo/google.svg" width={48} height={48} alt="Google logo" />
-                    <h3 className="ml-4 text-primary text-2xl">Google</h3>
+                    <Image src="/logo/logo-whatsapp__64__fill__social-media-whatsapp.svg" width={48} height={48} alt="Google logo" />
+                    <h3 className="ml-4 text-primary text-2xl">Whatsapp</h3>
                   </div>
                 </Link>
               </li>
