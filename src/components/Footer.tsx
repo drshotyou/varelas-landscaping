@@ -56,9 +56,9 @@ const Footer = () => {
                     </Link >
                   </li>
                   <li>
-                    <Link href={``}>
+                    <Link href={`https://wa.me/6783828760`}>
                       <div className="flex flex-row justify-center items-center w-full">
-                        <Image src={'/logo/google-logo-white.svg'} width={48} height={48} alt="Google logo"/>
+                        <Image src={'/logo/logo-whatsapp.svg'} width={48} height={48} alt="WhatsApp logo"/>
                         {/* <h3>Google</h3> */}
                       </div>
                     </Link >
