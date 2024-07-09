@@ -10,7 +10,7 @@ interface FormValues {
 const Hero = () => {
   const initialValues: FormValues = { name: "", phone: "" };
   const [values, setValues] = useState<FormValues>(initialValues);
-  const [emailSent, setEmailSent] = useState(true);
+  const [emailSent, setEmailSent] = useState(false);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
